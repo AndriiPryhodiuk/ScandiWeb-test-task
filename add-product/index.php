@@ -1,2 +1,3 @@
 <?php
-echo "No product at the moment";
+require_once "../products/dvd.php";
+echo file_get_contents("php://input");
